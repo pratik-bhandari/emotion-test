@@ -1,0 +1,123 @@
+12.3364 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd301498d90>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd301498d30>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd301498bb0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd303560940>, multiSample=False, name='window1', numSamples=2, pos=(418, 271), screen=0, size=array([2704, 1756]), stencilBits=8, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.3375 	EXP 	window1: mouseVisible = True
+12.3376 	EXP 	window1: backgroundImage = ''
+12.3376 	EXP 	window1: backgroundFit = 'none'
+12.3378 	EXP 	window1: mouseVisible = True
+12.3379 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.3379 	EXP 	window1: recordFrameIntervals = False
+12.5022 	EXP 	window1: recordFrameIntervals = True
+12.6861 	EXP 	Screen (0) actual frame rate measured at 60.06Hz
+12.6862 	EXP 	window1: recordFrameIntervals = False
+12.7380 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+15.3532 	EXP 	Created intro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='intro', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="Let's reflect on your emotions", units='norm', win=Window(...), wrapWidth=1)
+15.3582 	EXP 	Created textNext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='textNext', opacity=1.0, ori=0.0, pos=array([0.88, 0.  ]), rgb=UNKNOWN, text='>>', units='norm', win=Window(...), wrapWidth=1)
+15.3584 	EXP 	window1: mouseVisible = True
+15.3666 	EXP 	Created emoWheelIntro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.09, italic=False, languageStyle='LTR', name='emoWheelIntro', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+15.3689 	EXP 	Created textEmoNext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='textEmoNext', opacity=1.0, ori=0.0, pos=array([0.88, 0.  ]), rgb=UNKNOWN, text='>>', units='norm', win=Window(...), wrapWidth=1)
+15.3690 	EXP 	window1: mouseVisible = True
+15.3749 	EXP 	Created Anger = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Anger', opacity=1.0, ori=0.0, pos=array([-0.1 ,  0.68]), rgb=UNKNOWN, text='Anger', units='norm', win=Window(...), wrapWidth=1)
+15.3788 	EXP 	Created Interest = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Interest', opacity=1.0, ori=0.0, pos=array([0.1 , 0.68]), rgb=UNKNOWN, text='Interest', units='norm', win=Window(...), wrapWidth=1)
+15.3821 	EXP 	Created Hate = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Hate', opacity=1.0, ori=0.0, pos=array([-0.2 ,  0.52]), rgb=UNKNOWN, text='Hate', units='norm', win=Window(...), wrapWidth=1)
+15.3859 	EXP 	Created Amusement = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Amusement', opacity=1.0, ori=0.0, pos=array([0.255, 0.52 ]), rgb=UNKNOWN, text='Amusement', units='norm', win=Window(...), wrapWidth=1)
+15.3898 	EXP 	Created Contempt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Contempt', opacity=1.0, ori=0.0, pos=array([-0.3 ,  0.36]), rgb=UNKNOWN, text='Contempt', units='norm', win=Window(...), wrapWidth=1)
+15.3936 	EXP 	Created Pride = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Pride', opacity=1.0, ori=0.0, pos=array([0.3 , 0.36]), rgb=UNKNOWN, text='Pride', units='norm', win=Window(...), wrapWidth=1)
+15.3967 	EXP 	Created Disgust = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Disgust', opacity=1.0, ori=0.0, pos=array([-0.4,  0.2]), rgb=UNKNOWN, text='Disgust', units='norm', win=Window(...), wrapWidth=1)
+15.3999 	EXP 	Created Joy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Joy', opacity=1.0, ori=0.0, pos=array([0.35, 0.2 ]), rgb=UNKNOWN, text='Joy', units='norm', win=Window(...), wrapWidth=1)
+15.4027 	EXP 	Created Fear = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Fear', opacity=1.0, ori=0.0, pos=array([-0.5 ,  0.04]), rgb=UNKNOWN, text='Fear', units='norm', win=Window(...), wrapWidth=1)
+15.4058 	EXP 	Created Pleasure = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Pleasure', opacity=1.0, ori=0.0, pos=array([0.45, 0.04]), rgb=UNKNOWN, text='Pleasure', units='norm', win=Window(...), wrapWidth=1)
+15.4086 	EXP 	Created Disappointment = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Disappointment', opacity=1.0, ori=0.0, pos=array([-0.65, -0.12]), rgb=UNKNOWN, text='Disappointment', units='norm', win=Window(...), wrapWidth=1)
+15.4113 	EXP 	Created Contentment = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Contentment', opacity=1.0, ori=0.0, pos=array([ 0.58, -0.12]), rgb=UNKNOWN, text='Contentment', units='norm', win=Window(...), wrapWidth=1)
+15.4148 	EXP 	Created Shame = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Shame', opacity=1.0, ori=0.0, pos=array([-0.5 , -0.28]), rgb=UNKNOWN, text='Shame', units='norm', win=Window(...), wrapWidth=1)
+15.4175 	EXP 	Created Admiration = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Admiration', opacity=1.0, ori=0.0, pos=array([ 0.48, -0.28]), rgb=UNKNOWN, text='Admiration', units='norm', win=Window(...), wrapWidth=1)
+15.4205 	EXP 	Created Regret = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Regret', opacity=1.0, ori=0.0, pos=array([-0.38, -0.44]), rgb=UNKNOWN, text='Regret', units='norm', win=Window(...), wrapWidth=1)
+15.4249 	EXP 	Created Love = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Love', opacity=1.0, ori=0.0, pos=array([ 0.38, -0.44]), rgb=UNKNOWN, text='Love', units='norm', win=Window(...), wrapWidth=1)
+15.4279 	EXP 	Created Guilt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-16.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Guilt', opacity=1.0, ori=0.0, pos=array([-0.28, -0.6 ]), rgb=UNKNOWN, text='Guilt', units='norm', win=Window(...), wrapWidth=1)
+15.4309 	EXP 	Created Relief = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-17.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Relief', opacity=1.0, ori=0.0, pos=array([ 0.28, -0.6 ]), rgb=UNKNOWN, text='Relief', units='norm', win=Window(...), wrapWidth=1)
+15.4335 	EXP 	Created Sadness = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-18.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Sadness', opacity=1.0, ori=0.0, pos=array([-0.15, -0.76]), rgb=UNKNOWN, text='Sadness', units='norm', win=Window(...), wrapWidth=1)
+15.4361 	EXP 	Created Compassion = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-19.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Compassion', opacity=1.0, ori=0.0, pos=array([ 0.15, -0.76]), rgb=UNKNOWN, text='Compassion', units='norm', win=Window(...), wrapWidth=1)
+15.4361 	EXP 	window1: mouseVisible = True
+15.4819 	EXP 	Created textExit = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='textExit', opacity=1.0, ori=0.0, pos=array([0.88, 0.  ]), rgb=UNKNOWN, text='>>', units='norm', win=Window(...), wrapWidth=1)
+15.4820 	EXP 	window1: mouseVisible = True
+15.4910 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.066, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for reflecting on your emotions', units='norm', win=Window(...), wrapWidth=1)
+15.4915 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+15.4917 	EXP 	New trial (rep=0, index=0): None
+15.5127 	EXP 	textNote: autoLog = True
+15.5127 	EXP 	intro: autoDraw = True
+15.5127 	EXP 	textNext: autoDraw = True
+17.2014 	DATA 	Mouse: Left button down, pos=(1270,439)
+17.2055 	EXP 	window1: recordFrameIntervals = False
+17.2124 	EXP 	intro: autoDraw = False
+17.2124 	EXP 	textNext: autoDraw = False
+17.2124 	EXP 	window1: recordFrameIntervals = False
+17.3048 	DATA 	Mouse:  Left button up, pos=(1270,439)
+17.3980 	EXP 	emoWheelIntro: autoDraw = True
+17.3980 	EXP 	textEmoNext: autoDraw = True
+20.7736 	DATA 	Mouse: Left button down, pos=(1256,441)
+20.7818 	EXP 	window1: recordFrameIntervals = False
+20.8006 	EXP 	emoWheelIntro: autoDraw = False
+20.8006 	EXP 	textEmoNext: autoDraw = False
+20.8007 	EXP 	window1: recordFrameIntervals = False
+20.9842 	EXP 	Anger: autoDraw = True
+20.9842 	EXP 	Interest: autoDraw = True
+20.9842 	EXP 	Hate: autoDraw = True
+20.9842 	EXP 	Amusement: autoDraw = True
+20.9842 	EXP 	Contempt: autoDraw = True
+20.9842 	EXP 	Pride: autoDraw = True
+20.9842 	EXP 	Disgust: autoDraw = True
+20.9842 	EXP 	Joy: autoDraw = True
+20.9842 	EXP 	Fear: autoDraw = True
+20.9842 	EXP 	Pleasure: autoDraw = True
+20.9842 	EXP 	Disappointment: autoDraw = True
+20.9842 	EXP 	Contentment: autoDraw = True
+20.9842 	EXP 	Shame: autoDraw = True
+20.9842 	EXP 	Admiration: autoDraw = True
+20.9842 	EXP 	Regret: autoDraw = True
+20.9842 	EXP 	Love: autoDraw = True
+20.9842 	EXP 	Guilt: autoDraw = True
+20.9842 	EXP 	Relief: autoDraw = True
+20.9842 	EXP 	Sadness: autoDraw = True
+20.9842 	EXP 	Compassion: autoDraw = True
+21.4958 	DATA 	Mouse:  Left button up, pos=(1256,441)
+29.1262 	DATA 	Mouse: Left button down, pos=(369,454)
+29.1319 	EXP 	window1: recordFrameIntervals = False
+29.1498 	EXP 	Anger: autoDraw = False
+29.1498 	EXP 	Interest: autoDraw = False
+29.1498 	EXP 	Hate: autoDraw = False
+29.1498 	EXP 	Amusement: autoDraw = False
+29.1498 	EXP 	Contempt: autoDraw = False
+29.1498 	EXP 	Pride: autoDraw = False
+29.1498 	EXP 	Disgust: autoDraw = False
+29.1498 	EXP 	Joy: autoDraw = False
+29.1498 	EXP 	Fear: autoDraw = False
+29.1498 	EXP 	Pleasure: autoDraw = False
+29.1498 	EXP 	Disappointment: autoDraw = False
+29.1498 	EXP 	Contentment: autoDraw = False
+29.1498 	EXP 	Shame: autoDraw = False
+29.1498 	EXP 	Admiration: autoDraw = False
+29.1498 	EXP 	Regret: autoDraw = False
+29.1498 	EXP 	Love: autoDraw = False
+29.1498 	EXP 	Guilt: autoDraw = False
+29.1498 	EXP 	Relief: autoDraw = False
+29.1498 	EXP 	Sadness: autoDraw = False
+29.1498 	EXP 	Compassion: autoDraw = False
+29.1499 	EXP 	window1: recordFrameIntervals = False
+29.2417 	DATA 	Mouse:  Left button up, pos=(369,454)
+29.3282 	EXP 	textNote: autoDraw = True
+29.3282 	EXP 	textExit: autoDraw = True
+30.3802 	DATA 	Keypress: capslock
+31.6254 	DATA 	Keypress: t
+32.0036 	DATA 	Keypress: o
+32.1694 	DATA 	Keypress: o
+32.3034 	DATA 	Keypress: space
+32.4697 	DATA 	Keypress: l
+32.6028 	DATA 	Keypress: a
+32.7699 	DATA 	Keypress: t
+32.9367 	DATA 	Keypress: e
+34.2343 	DATA 	Mouse: Left button down, pos=(1264,438)
+34.2505 	EXP 	textNote: autoDraw = False
+34.2505 	EXP 	textExit: autoDraw = False
+34.2505 	EXP 	text: autoDraw = True
+34.3195 	DATA 	Mouse:  Left button up, pos=(1264,438)
+38.2520 	EXP 	text: autoDraw = False
+38.2520 	EXP 	text: autoDraw = False
+38.2724 	EXP 	window1: mouseVisible = True
